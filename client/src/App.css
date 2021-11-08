@@ -1,38 +1,135 @@
-.App {
+/* Website's color theme*/
+:root {
+  --color1: #4C212A;
+  --color2: #01172f;
+  --color3: #00635d;
+  --color4: #08a4bd;
+  --color5: #446df6;
+}
+
+/* Sets the font style and color for the sight */
+*{
+  color: var(--color3);
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: ivory;
+}
+
+/* Yelpington Logo styling*/
+#logoTitle {
+  position: relative;
+  margin: .5em 0;
+  z-index: 3;
+  text-align: center;
+  background-color: var(--color3);
+  color: ivory;
+  transition: .3s ease-in;
+}
+
+/* Logo's link transition*/
+#LogoTitle:hover {
+  color: var(--color4)
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: var(--color3);
+  width: 100vw;
+  z-index: 3;
+  position: absolute;
+  border-bottom: 4px solid ivory;
+}
+
+/* Div for the Search Results */
+#searchResultBar {
+  width: 25vw;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  background-color: var(--color1);
+  border-right: 4px solid ivory;
+  overflow-y: scroll;
+}
+
+#searchDiv {
+  position: absolute;
+  top: 10vh;
+  width: 25vw;
+  margin: 0 auto 1em auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#searchDiv input {
+  padding: .5em;
+  width: 20vw;
+  height: 8vh;
+  font-size: 1.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Each search results styling*/
+.searchResult {
+  background-color: ivory;
+  padding: .5em;
+  margin: 1em;
+  border-radius: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navLink {
+  z-index: 3;
+  flex: 1;
+  text-align: center;
+  padding: 4px;
+  background-color: ivory;
+  border-left: 1px dotted var(--color1);
+  border-right: 1px dotted var(--color1);
+}
+
+#nav {
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background-color: ivory;
+  border-top: 4px var(--color4) dotted;
+  border-bottom: 3px var(--color1) solid;
 }
 
-.App-link {
-  color: #61dafb;
+/* Map container's placement on the page */
+#mapContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 1em auto;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#restContainer {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#infoContainer {
+  flex: 1;
+}
+
+#restMapContainer {
+  flex: 1;
+}
+
+.pageLink {
+  transition: .3s ease-in
+}
+
+.pageLink:hover {
+  color: var(--color1);
+}
+
+#commentSection {
+  text-align: center;
 }
