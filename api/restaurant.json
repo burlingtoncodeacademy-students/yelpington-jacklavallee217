@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bluebird-barbecue",
+    "name": "Bluebird Barbecue",
+    "address": "317 Riverside Ave.",
+    "phonenumber": "448-3070",
+    "hours": "4:00pm - 8:00 pm",
+    "notes": ["Mmmmmm bbq"],
+    "lat": 44.4879,
+    "lon": -73.1954,
+    "website": "https://www.bluebirdbbq.com/"
+  },
+  {
+    "id": "el-cortijo",
+    "name": "El Cortijo",
+    "address": "189 Bank St.",
+    "phonenumber": "497-1668",
+    "hours": "4:00pm - 10:00 pm",
+    "notes": ["I like their margaritas", "Good tacos too"],
+    "lat": 44.4781,
+    "lon": -73.2120,
+    "website": "https://www.cortijovt.com/"
+  },
+  {
+    "id": "hen-of-the-wood",
+    "name": "Hen of the Wood",
+    "address": "55 Cherry St.",
+    "phonenumber": "540-0534",
+    "hours": "5:00pm - 10:00 pm",
+    "notes": ["Get the octopus it's really good"],
+    "lat": 44.4792,
+    "lon": -73.2174,
+    "website": "https://www.henofthewood.com/"
+  },
+  {
+    "id": "honey-road",
+    "name": "Honey Road",
+    "address": "156 Church St.",
+    "phonenumber": "497-2145",
+    "hours": "5:00pm - 9:00 pm",
+    "notes": ["I've gotten many recommendations to eat here"],
+    "lat": 44.4760,
+    "lon": -73.2122,
+    "website": "https://www.honeyroadrestaurant.com/"
+  },
+  {
+    "id": "joes-diner",
+    "name": "Joe's Diner",
+    "address": "123 King St.",
+    "phonenumber": "555-1221",
+    "hours": "7:00 am - 3:00 pm",
+    "notes": [
+      "Their sriracha breakfast sandwich is quite good.",
+      "Every Thursday is meatloaf day."
+    ],
+    "lat": 44.4746,
+    "lon": -73.2132,
+    "website": "http://www.lasesp.com/article/16362201862314071/Joes_Diner"
+  },
+  {
+    "id": "pizzeria-verita",
+    "name": "Pizzeria Verita",
+    "address": "156 St Paul St.",
+    "phonenumber": "489-5644",
+    "hours": "5:00pm - 9:00 pm",
+    "notes": ["Sometimes they put corn on pizza, it's ok"],
+    "lat": 44.4751,
+    "lon": -73.2137,
+    "website": "https://www.pizzeriaverita.com/"
+  },
+  {
+    "id": "the-gryphon",
+    "name": "The Gryphon",
+    "address": "131 Main St.",
+    "phonenumber": "489-5699",
+    "hours": "4:00pm - 9:00 pm",
+    "notes": ["I've never eaten here before..."],
+    "lat": 44.4759,
+    "lon": -73.2136,
+    "website": "https://www.gryphonvt.com/"
+  },
+  {
+    "id": "the-skinny-pancake",
+    "name": "The Skinny Pancake",
+    "address": "60 Lake St.",
+    "phonenumber": "540-0188",
+    "hours": "8:00am - 3:00 pm",
+    "notes": ["These are crepes not pancakes"],
+    "lat": 44.4771, 
+    "lon": -73.2194,
+    "website": "https://skinnypancake.com/"
+  }
+]

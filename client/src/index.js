@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Restaurant from './components/Restaurant';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        {/* 
+        // Route to index page
+        */}
+        <Route path="/" element={<App />} />
+        {/* 
+        // Route to individual restaurant page
+        */}
+        <Route path="/restaurant/:id" element={<Restaurant />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
